@@ -1,0 +1,30 @@
+print("Property Dealer Chatbot")
+print("Type 'exit' to quit.")
+
+while True:
+    question = input("\nYou: ").lower()
+
+    if "profession" in question:
+        print("Bot: My father is a Property Dealer.")
+
+    elif "current post" in question or "post" in question:
+        print("Bot: My father works as a Property Dealer and Real Estate Consultant.")
+
+    elif "promotion" in question:
+        print("Bot: In business there is no official promotion. He can grow his business by increasing clients and property deals.")
+
+    elif "property" in question or "properties" in question:
+        print("Bot: He deals with houses, plots, shops, and commercial properties.")
+
+    elif "profit" in question or "income" in question:
+        print("Bot: Property dealing can be profitable if market conditions are good.")
+
+    elif "skills" in question:
+        print("Bot: Communication, negotiation, and marketing skills are important for a property dealer.")
+
+    elif question == "exit":
+        print("Bot: Goodbye!")
+        break
+
+    else:
+        print("Bot: Sorry, I don't understand your question.")
